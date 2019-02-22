@@ -1,0 +1,124 @@
+#body{
+  background-color:#2291E4;
+  margin: 50px;
+}
+
+#mainheader
+{
+  background-color: #2291E4;
+}
+
+.logo1
+{
+  position: relative;
+left: 10px;
+}
+.navbar
+{
+border: hidden;
+background-color: #D3D3D3;
+padding: 20px;
+
+}
+#Home
+{
+  display: inline;
+  border:hidden;
+  padding: 10px;
+  margin-right: 10px;
+
+  color: #756F6F;
+}
+#rygg {
+display: inline;
+border:hidden;
+padding: 10px;
+margin-left: 10px;
+
+
+color: #756F6F;
+}
+
+#bryst{
+border:hidden;
+display: inline;
+padding: 10px;
+margin-left: 20px;
+
+color: #756F6F;
+}
+#føtter{
+  border:hidden;
+  display: inline;
+padding: 10px;
+margin-left: 20px;
+
+color: #756F6F;
+}
+#kosttilskudd{
+  border:hidden;
+  display: inline;
+padding: 10px;
+margin-left: 20px;
+
+color: #756F6F;
+
+}
+#kontakt
+{
+  border:hidden;
+  display: inline;
+padding: 10px;
+margin-left: 20px;
+
+color: #756F6F;
+
+}
+#video
+{
+  border:hidden;
+  display: inline;
+padding: 10px;
+margin-left: 20px;
+
+color: #756F6F;
+}
+
+.article1
+{
+border:solid;
+background-color: #FFFFFF;
+
+height: 500px;
+padding-left: 10px;
+margin-right: 195px;
+
+
+}
+.aside1{
+background-color: #D3D3D3;
+border: hidden;
+position: absolute;
+top:209px;
+right: 50px;
+height: 532px;
+width: 184px;
+padding-left: 10px;
+}
+.article2{
+  border:solid;
+  background-color: #FFFFFF;
+
+  height: 500px;
+  padding-left: 10px;
+  margin-right: 195px;
+}
+
+a {
+  text-decoration: none;
+}
+.footer
+{
+font-size:12px;
+color: #D3D3D3;
+}

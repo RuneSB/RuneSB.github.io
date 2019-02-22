@@ -1,0 +1,140 @@
+#mainBody{
+  background-color:#2291E4;
+  margin: 50px;
+}
+.logo1
+{
+  position: relative;
+left: 10px;
+}
+.navbar
+{
+border: hidden;
+background-color: #D3D3D3;
+padding: 20px;
+ margin-right: 10px;
+
+}
+#Home
+{
+  display: inline;
+  border:hidden;
+  padding: 10px;
+  margin-right: 10px;
+
+  color: #756F6F;
+}
+#rygg {
+display: inline;
+border:hidden;
+padding: 10px;
+margin-left: 10px;
+
+
+color: #756F6F;
+}
+
+#bryst{
+border:hidden;
+display: inline;
+padding: 10px;
+margin-left: 20px;
+
+color: #756F6F;
+}
+#føtter{
+  border:hidden;
+  display: inline;
+padding: 10px;
+margin-left: 20px;
+
+color: #756F6F;
+}
+#kosttilskudd{
+  border:hidden;
+  display: inline;
+padding: 10px;
+margin-left: 20px;
+
+color: #756F6F;
+}
+
+#kontakt
+{
+  border:hidden;
+  display: inline;
+padding: 10px;
+margin-left: 20px;
+
+color: #756F6F;
+}
+
+#video
+{
+  border:hidden;
+  display: inline;
+padding: 10px;
+margin-left: 20px;
+
+color: #756F6F;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.Oppvarming
+{
+  padding: 20px;
+  border: hidden;
+  background-color: #FFFFFF;
+  height: 420px;
+  margin-right: 10px;
+}
+.Benkpress
+{
+  padding: 20px;
+  border: hidden;
+  background-color: #FFFFFF;
+  height: 400px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.SkråBenk
+{
+  padding: 20px;
+  border: hidden;
+  background-color: #FFFFFF;
+  height: 400px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.Markløft
+{
+  padding: 20px;
+  border: hidden;
+  background-color: #FFFFFF;
+  height: 400px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.DownwardsRow
+{
+  padding: 20px;
+  border: hidden;
+  background-color: #FFFFFF;
+  height: 400px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.Squats
+{
+  padding: 20px;
+  border: hidden;
+  background-color: #FFFFFF;
+  height: 400px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
