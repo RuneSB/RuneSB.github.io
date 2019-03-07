@@ -9,7 +9,7 @@
 .bilde2 {display: block;}
 .bilde3{display: none;}
 }
-@media (max-width:500px) {
+@media (max-width:700px ) and (min-width:300px)  {
 .bilde1 {display:none;}
 .bilde2{display: none;}
 .bilde3 {display: block;}
