@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+
+    <script>
+    function form()
+      {
+          var navn = document.forms["RegForm"]["Navn"];
+          var email = document.forms["RegForm"]["EMail"];
+          var mobil = document.forms["RegForm"]["Mobil"];
+          var what =  document.forms["RegForm"]["Subject"];
+          var passord = document.forms["RegForm"]["Passord"];
+          var addresse = document.forms["RegForm"]["Addresse"];
+
+          if (navn.value == "")
+          {
+              window.alert("Vennligst skriv inn Navn.");
+              navn.focus();
+              return false;
+          }
+
+          if (addresse.value == "")
+          {
+              window.alert("Vennligst skriv inn din addresse.");
+              addresse.focus();
+              return false;
+          }
+
+          if (email.value == "")
+          {
+              window.alert("Skriv inn en gylidg e-mail addresse.");
+              email.focus();
+              return false;
+          }
+
+          if (email.value.indexOf("@", 0) < 0)
+          {
+              window.alert("Skriv inn en gyldig e-mail addresse.");
+              email.focus();
+              return false;
+          }
+
+          if (email.value.indexOf(".", 0) < 0)
+          {
+              window.alert("Skriv inn en gyldig e-mail addresse.");
+              email.focus();
+              return false;
+          }
+
+          if (mobil.value == "")
+          {
+              window.alert("Vennligst skriv inn ditt mobil nummer.");
+              mobil.focus();
+              return false;
+          }
+
+          if (passord.value == "")
+          {
+              window.alert("Vennligst skriv inn ditt passord");
+              passord.focus();
+              return false;
+          }
+
+          if (what.selectedIndex < 1)
+          {
+              alert("Vennligst velg et Treningsprogram.");
+              what.focus();
+              return false;
+          }
+
+          return true;
+      }
+    </script>
+
+  </head>
+  <link rel="stylesheet" href="navsite.css">
+  <body id=mainBody>
+    <h1> <img class=logo1 src="../pictures/street-workout-kz-logo-21E5A0351D-seeklogo.com.png" alt="logo" width="150" height="100"> Skjema for Treningsprogram  </h1>
+
+<article class="Oppvarming">
+
+
+<form name="RegForm" action="/submit.php" onsubmit="return form()" method="post">
+
+  <p>  Navn: <input type="text" size=65 name="Navn"></p> <br>
+    <p> Addresse: <input type="text" size=65 name="Addresse"> </p><br>
+  <p>  E-mail Addresse: <input type="text" size=65 name="EMail"></p>  <br>
+    <p> Passord: <input type="text" size=65 name="Passord"></p> <br>
+  <p>  Mobil: <input type="text" size=65 name="Mobil"></p> <br>
+
+    <p>VELG PROGRAM
+        <select type="text" value="" name="Subject">
+            <option>Nybegynner</option>
+            <option>Bodybuilding</option>
+            <option>Cutting</option>
+            <option>Bulking</option>
+            <option>Powerlifting</option>
+        </select></p><br><br>
+    <p>Kommentarer :  <textarea cols="55" name="Comment">  </textarea></p>
+    <p><input type="submit" value="Send" name="Submit">
+        <input type="reset" value="Reset" name="Reset">
+    </p>
+</form>
+</article>
+
+
+  </body>
+</html>
